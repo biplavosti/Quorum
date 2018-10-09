@@ -16,4 +16,4 @@ geth --datadir qdata/dd1 init genesis.json
 bootnode -genkey qdata/dd1/geth/nodekey
 bootnode -nodekey qdata/dd1/geth/nodekey -writeaddress
 #Initialise Tessera configuration
-./tessera-init.sh
+bash tessera-init.sh

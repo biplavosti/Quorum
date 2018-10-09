@@ -11,7 +11,7 @@ function usage() {
   echo "    tessera | constellation (default = constellation): specifies which privacy implementation to use"
   echo "    --tesseraOptions: allows additional options as documented in tessera-start.sh usage which is shown below:"
   echo ""
-  ./tessera-start.sh --help
+  bash tessera-start.sh --help
   exit -1
 }
 
@@ -47,7 +47,7 @@ mkdir -p qdata/logs
 
 if [ "$privacyImpl" == "tessera" ]; then
   echo "[*] Starting Tessera nodes"
-  ./tessera-start.sh ${tesseraOptions}
+  bash tessera-start.sh ${tesseraOptions}
 else
   echo "Unsupported privacy implementation: ${privacyImpl}"
   usage
