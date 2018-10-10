@@ -55,8 +55,8 @@ fi
 
 echo "[*] Starting Ethereum nodes with ChainID and NetworkId of $NETWORK_ID"
 set -v
-ARGS="--nodiscover --permissioned --verbosity 5 --networkid $NETWORK_ID --raft --rpc --rpcaddr 0.0.0.0 --rpcapi eth,net,web3 console --emitcheckpoints"
-PRIVATE_CONFIG=qdata/c1/tm.ipc nohup geth --datadir qdata/dd1 $ARGS --raftport 50401 --rpcport 22000 --port 21000 --unlock 0 --password qdata/dd1/password.txt 2>>qdata/logs/1.log &
+ARGS="--nodiscover --permissioned --verbosity 5 --networkid $NETWORK_ID --raft --rpc --rpcaddr 0.0.0.0 --rpcapi eth,net,web3 --emitcheckpoints"
+PRIVATE_CONFIG=qdata/c1/tm.ipc nohup geth --datadir qdata/dd1 $ARGS --raftport 50401 --rpcport 22000 --port 21000 2>>qdata/logs/1.log &
 set +v
 
 echo
