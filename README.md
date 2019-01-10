@@ -33,9 +33,10 @@ Steps to deploy quorum
         
         cp permissioned-nodes.json qdata/dd1/static-nodes.json
    
-   Follow above commands and procedures in all the nodes before proceeding further. After all the required nodes are set up proceed to 4)
 	
 5) Add Tessera peers url in __qdata/c1/tessera_config.json__ in all nodes.
+
+	Follow above commands and procedures in all the nodes before proceeding further. After all the required nodes are set up proceed to 6)
 
 6) Start node and teserra
 
