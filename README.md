@@ -25,7 +25,9 @@ Steps to deploy quorum
 
 		bash raft-init.sh
         
-   The _enode hash_ is printed on terminal. Or check the _nodekey_ file in _qdata/dd1/geth/_ directory and convert it to enodehash. Add the enode url in the permission-nodes.json (sample enode urls is preloaded in the file - remove them) in all the nodes.
+   The _enode hash_ is printed on terminal. Or check the _nodekey_ file in _qdata/dd1/geth/_ directory and convert it to enodehash. 
+   
+ 	Add the enode url in the permission-nodes.json (sample enode urls is preloaded in the file - remove them) in all the nodes.
 
 4) Copy permissioned-nodes.json to working directory
 		
@@ -60,5 +62,6 @@ a) follow above steps upto 3 to get enodehash of the new node
     		
             --raftjoinexisting raftid
 
+d) Add enode url in the permissioned-nodes.json in all nodes.
 
-d) follow steps 4, 5 and 6
+e) follow steps 5 and 6
