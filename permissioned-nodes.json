@@ -1,4 +1,0 @@
-[
-  "enode://enodeId@ipaddress:port?discport=0&raftport=raft-port",
-  "enode://80b642b4e51c5a92f2e360c4d5c0bb9b8f7a5a856eef82560706f5f636c9c82a21dd3ba0217f0af2befc77b1389a9eab647c30a7a6ad94d6c2874258ccaef430@3.0.0.0:21000?discport=0&raftport=50401"
-]
