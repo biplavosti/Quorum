@@ -4,7 +4,7 @@
 
 Extracted from [7nodes Example](https://github.com/jpmorganchase/quorum-examples/tree/master/examples/7nodes) for a single node installation.
 
-Supported machine : Ubuntu (extensively tested and working on Ubuntu 18.04)
+Supported machine : Ubuntu
 
 Incoming ports : 21000, 22000, 50401, 9001
 
